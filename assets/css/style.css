@@ -3,11 +3,11 @@
 
 body {
     background: url('../bg.gif') repeat;
-    background-color: #0c0f22;
-    -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+    background-color: #c2d9e5;
+    -webkit-background-size: auto;
+-moz-background-size: auto;
+-o-background-size: auto;
+background-size: auto;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
