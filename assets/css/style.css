@@ -83,6 +83,7 @@ input[id^="spoiler"]{
 display: none;
 }
 /* Estilo botón clicable */
+input[id^="spoiler"] + label {
 display: block;
 margin: 5px auto;
 padding: 17px;
@@ -99,12 +100,14 @@ cursor: pointer;
 transition: all .25s cubic-bezier(.08, .59, .29, .99);
 }
 /* Estilo botón cuando su INPUT está seleccionado */
+
 input[id^="spoiler"]:checked + label {
     background-color: rgba(255, 255, 255, 0.3);
     color: #628ea5;
     border: none;
         text-shadow: 1px 2px 1px #FFFF;
 }
+
 /* Estilo caja SPOILER (inicialmente oculto) */
 input[id^="spoiler"] ~ .spoiler {
 width: 90%;
