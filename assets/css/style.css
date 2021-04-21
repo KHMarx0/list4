@@ -83,18 +83,27 @@ input[id^="spoiler"]{
 display: none;
 }
 /* Estilo botón clicable */
-input[id^="spoiler"] + label {
 display: block;
-width: 200px;
-margin: 0 auto;
-padding: 5px 20px;
-background: #e1a;
+margin: 5px auto;
+padding: 17px;
+border-radius: 10px;
+background-color: rgba(177, 206, 222, 0.80);
+color: #fff;
+text-align: center;
+text-decoration: none;
+font-size: 1.2rem;
+text-shadow: 1px 1px 1px #6a97b0;
+max-width: 470px;
+width: auto;
 cursor: pointer;
+transition: all .25s cubic-bezier(.08, .59, .29, .99);
 }
 /* Estilo botón cuando su INPUT está seleccionado */
 input[id^="spoiler"]:checked + label {
-color: #333;
-background: #ccc;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #628ea5;
+    border: none;
+        text-shadow: 1px 2px 1px #FFFF;
 }
 /* Estilo caja SPOILER (inicialmente oculto) */
 input[id^="spoiler"] ~ .spoiler {
