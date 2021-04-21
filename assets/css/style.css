@@ -51,6 +51,7 @@ i.fa {
 }
 
 .link {
+    font-family: 'Roboto Slab', serif;
     display: block;
     background-color: rgba(177, 206, 222, 0.80);
     color: #fff;
@@ -59,7 +60,6 @@ i.fa {
     padding: 17px;
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: 500;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border-radius: 10px;
     text-shadow: 1px 2px 1px #84abc0;
