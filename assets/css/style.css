@@ -25,7 +25,7 @@ background-color: #FFF;
     width: 100%;
     text-align: center;
     text-decoration: none;
-      text-shadow: 1px 1px 3px #6a97b0;
+
 }
 
 #userName h1 {
@@ -34,6 +34,7 @@ background-color: #FFF;
     letter-spacing: 0.2rem;
     margin: 0 auto;
     text-decoration-style: bold;
+          text-shadow: 1px 1px 3px #6a97b0;
 }
 
 
@@ -42,6 +43,8 @@ background-color: #FFF;
     margin-top: 5px;
     text-transform: none;
         font-size: 1.3rem;
+        text-decoration: underline;
+          text-shadow: 1px 1px 3px #6a97b0;
 }
 
 i.fa {
