@@ -8,7 +8,7 @@ body {
 -moz-background-size: 300px 300px;
 -o-background-size: 300px 300px;
 background-size: 300px 300px;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
     font-weight: 600;
 }
 
@@ -24,6 +24,7 @@ background-size: 300px 300px;
     width: 100%;
     text-align: center;
     text-decoration: none;
+      text-shadow: 1px 1px 3px #6a97b0;
 }
 
 #userName h1 {
@@ -31,12 +32,15 @@ background-size: 300px 300px;
     font-weight: 300;
     letter-spacing: 0.2rem;
     margin: 0 auto;
+    text-decoration-style: bold;
 }
+
 
 #userName p {
     font-weight: 300;
     margin-top: 5px;
     text-transform: none;
+        font-size: 1.3rem;
 }
 
 i.fa {
@@ -62,7 +66,7 @@ i.fa {
     font-size: 1.2rem;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border-radius: 10px;
-    text-shadow: 1px 2px 1px #84abc0;
+    text-shadow: 1px 1px 1px #6a97b0;
 
 }
 
