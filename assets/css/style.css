@@ -45,18 +45,13 @@ text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
 }
 
 #userName p {
-    margin-top: 5px;
-        font-size: 1.3rem;
-text-shadow: 1px 1px 0px #4c7f9c, 1px 1px 6px #5c8ba5;
-      font-family: 'Roboto Slab', serif;
-      padding: 10px;
-width: 440px;
- background: rgb(122,175,202);
-background: -moz-linear-gradient(0deg, rgba(122,175,202,1) 0%, rgba(180,208,223,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(122,175,202,1) 0%, rgba(180,208,223,1) 100%);
-background: linear-gradient(0deg, rgba(122,175,202,1) 0%, rgba(180,208,223,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7aafca",endColorstr="#b4d0df",GradientType=1); 
     border-radius: 10px;
+        margin-top: 5px;
+    text-transform: none;
+        font-size: 1.3rem;
+text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
+      font-family: 'Roboto Slab', serif;
+    
 }
 
 
