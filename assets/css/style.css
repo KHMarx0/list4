@@ -8,8 +8,6 @@ body {
 -moz-background-size: 300px 300px;
 -o-background-size: 300px 300px;
 background-size: 300px 300px;
-  font-family: 'Roboto Slab', serif;
-    font-weight: 600;
 }
 
 #userPhoto {
@@ -25,26 +23,26 @@ background-color: #FFF;
     width: 100%;
     text-align: center;
     text-decoration: none;
+      font-family: 'Roboto Slab', serif;
 
 }
 
 #userName h1 {
     font-size: 2rem;
-    font-weight: 300;
     letter-spacing: 0.2rem;
     margin: 0 auto;
     text-decoration-style: bold;
           text-shadow: 1px 1px 3px #6a97b0;
+      font-family: 'Roboto Slab', serif;
 }
 
 
 #userName p {
-    font-weight: 300;
     margin-top: 5px;
     text-transform: none;
         font-size: 1.3rem;
-        text-decoration: underline;
           text-shadow: 1px 1px 3px #6a97b0;
+      font-family: 'Roboto Slab', serif;
 }
 
 i.fa {
@@ -102,6 +100,7 @@ width: auto;
 cursor: pointer;
 transition: all .25s cubic-bezier(.08, .59, .29, .99);
     box-shadow:  1px 1px 0px #FFF;
+      font-family: 'Roboto Slab', serif;
 }
 /* Estilo botón cuando su INPUT está seleccionado */
 
