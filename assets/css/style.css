@@ -45,13 +45,13 @@ text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
 }
 
 #userName p {
-background: rgb(129,177,202);
-background: linear-gradient(0deg, rgba(129,177,202,1) 0%, rgba(177,206,222,1) 50%, rgba(129,177,202,1) 100%);
+ background: rgb(147,188,210);
+background: linear-gradient(0deg, rgba(147,188,210,1) 0%, rgba(177,206,222,1) 100%); 
         max-width: 400px;
         margin-top: 5px;
     text-transform: none;
         font-size: 1.3rem;
-text-shadow: 1px 1px 0px #6a97b0, 1px 1px 6px #6a97b0;
+text-shadow: 1px 1px 0px #6a97b0, 0px 0px 3px #6a97b0;
       font-family: 'Roboto Slab', serif;
     
 }
